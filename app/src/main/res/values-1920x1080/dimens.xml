@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+  <dimen name="Main_head_margin">1dp</dimen>
+    <dimen name="Main_mainhead_textsize">12dp</dimen>
+    <dimen name="Main_head_textsize">22dp</dimen>
+    <dimen name="Main_bottom_textsize">15dp</dimen>
+    <dimen name="spinner_height">40dp</dimen>
+    <dimen name="edittext_marginTop">3dp</dimen>
+     <dimen name="loginpanel_marginTop">60dp</dimen>
+      <dimen name="edittext_height">45dp</dimen>
+       <dimen name="edittext_marginLeft">40dp</dimen>
+    <dimen name="edittext_marginRight">40dp</dimen>
+   <dimen name="btnregister_width">150dp</dimen>
+  <dimen name="font">20sp</dimen> 
+    <dimen name="tab_bottomsize">12sp</dimen>
+    <dimen name="appliation_fontsize">16sp</dimen>
+    <!--界面顶部横条高度  -->
+    <dimen name="top_pand_height">45dp</dimen>
+    <!-- 顶部右侧按钮宽度  完成 -->
+    <dimen name="top_pand_btn_width">80dp</dimen>
+    <dimen name="top_pand_btn_cancel_width">70dp</dimen>
+    
+    <!-- 编辑图片界面下拉文本的长高 -->
+ 	<dimen name="editpicture_page_dropitem_width">100dp</dimen>
+ 	<dimen name="editpicture_page_dropitem_height">25dp</dimen>
+ 	<dimen name="titlesize">12sp</dimen>
+ 	<dimen name="marktitlesize">12sp</dimen>
+ 	<dimen name="dropitemsize">13sp</dimen>
+ 	<dimen name="editpicture_page_note_width">160dp</dimen>
+ 	
+ 	<dimen name="maintext_marginleft">16dp</dimen>
+ 	 <dimen name="count_marginleft">6dp</dimen>
+ 	
+ 	<dimen name="title_maintextSize">16sp</dimen>
+ 	<dimen name="title_counttextSize">12sp</dimen>
+ 	<dimen name="hospitaltextSize">14sp</dimen>
+ 	<dimen name="timetextsize">10sp</dimen>
+ 	
+ 	<dimen name='takingphoto_item_height'>40dp</dimen>
+ 	<dimen name="imageheight">50dp</dimen>
+ 	
+ 		<!-- 设置界面字体设置 -->
+ 	
+ 	<dimen name="meinfosize">17sp</dimen>
+ 	<dimen name="meinfotipsize">14sp</dimen>
+ 	<dimen name="dropitemheight">30dp</dimen>
+ 	
+ 	<dimen name="contact_item_bfont">14sp</dimen>
+ 	<dimen name="contact_item_sfont">12sp</dimen>
+ 	
+ 	<dimen name="back_wid_height">35dp</dimen>
+</resources>

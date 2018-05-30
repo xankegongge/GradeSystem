@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    >
+	     <RelativeLayout 
+	         android:layout_width="match_parent"
+	         android:layout_height="@dimen/top_pand_height"
+	         android:background="@color/bluebg"
+	         >
+	         <FrameLayout
+	             android:id="@+id/ly_back"
+	             android:layout_width="wrap_content"
+	             android:layout_height="match_parent"
+	             android:layout_alignParentLeft="true"
+	             >
+	             <Button
+		             android:id="@+id/btn_selectimg_back"
+		             android:layout_width="@dimen/back_wid_height"
+		             android:layout_height="@dimen/back_wid_height"
+		             android:layout_gravity="center_vertical"
+		             android:background="@drawable/ease_mm_title_back"
+		             android:gravity="center_vertical"
+	            
+	             />
+	         </FrameLayout>
+
+	         <Button
+	             android:id="@+id/btn_imgselect_finish"
+	             android:layout_width="@dimen/top_pand_btn_width"
+	             android:layout_height="match_parent"
+	             android:text="完成"
+	             android:layout_alignParentRight="true"
+	             android:gravity="center"
+	             android:padding="3dp"
+	             android:textSize="@dimen/font"
+	            android:textColor="@color/white"
+	           android:background="@color/bluebg"
+	             />
+	          <TextView 
+	             android:layout_width="1dip"
+	             android:layout_height="match_parent"
+	             android:background="#ff535353"
+	             android:layout_toLeftOf="@id/btn_imgselect_finish"
+	             android:gravity="left|center_vertical"
+	             
+	             />
+	     </RelativeLayout>
+		 <GridView
+	        android:id="@+id/id_gridView"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:cacheColorHint="@android:color/transparent"
+	        android:clipChildren="true"
+	        android:gravity="center"
+	        android:horizontalSpacing="3dip"
+	        android:listSelector="@android:color/transparent"
+	        android:numColumns="3"
+	        android:stretchMode="columnWidth"
+	        android:verticalSpacing="3dip" >
+	    </GridView>
+	</LinearLayout>
+   
+
+    <RelativeLayout
+        android:id="@+id/id_bottom_ly"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="#e0000000"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/id_choose_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:text="所有图片"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/id_total_count"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="0张"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

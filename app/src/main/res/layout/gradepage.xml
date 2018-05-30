@@ -1,0 +1,405 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+	
+ 	<ScrollView
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="fill_parent"
+		android:background="@drawable/bg_normal"
+ 	    android:scrollbars="none"
+ 	    android:fadingEdge="none"
+ 	    android:cacheColorHint="#00000000"
+ 	    android:overScrollMode="never">
+ 		<LinearLayout
+ 		    android:layout_width="fill_parent"
+ 		    android:layout_height="fill_parent"
+ 		    android:orientation="vertical"
+ 		    >
+ 		    <RelativeLayout 
+ 			    android:layout_width="fill_parent"
+ 			    android:layout_height="40dp"
+ 			    android:background="@color/lightblue"
+ 			    >
+ 			    <TextView 
+ 			        android:layout_width="wrap_content"
+ 			        android:layout_height="match_parent"
+ 			        android:layout_alignParentLeft="true"
+ 			        android:text="学生信息："
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:gravity="left|center_vertical"
+ 			        android:layout_marginLeft="16dp"
+					android:textColor="#ff0000aa"
+ 			        />
+ 			    
+ 			   
+ 			</RelativeLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+
+			android:layout_gravity="center_vertical"
+			android:gravity="center"
+			android:orientation="horizontal"
+			>
+			<com.example.view.utils.CircleImage
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:id="@+id/stu_header"
+				android:src="@android:drawable/sym_def_app_icon"
+				/>
+
+		</LinearLayout>
+
+
+ 			<LinearLayout 
+ 			    android:layout_width="fill_parent"
+ 			    android:layout_height="wrap_content"
+ 			    android:orientation="vertical"
+ 			    android:layout_marginTop="10dp"
+ 			    android:layout_marginBottom="10dp"
+ 			    >
+ 			    <LinearLayout 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:orientation="horizontal"
+ 			        >
+ 			       <TextView 
+ 			        android:layout_width="fill_parent"
+ 			        android:id="@+id/tv_title_expertname"
+ 			        android:layout_height="wrap_content"
+ 			        android:text="姓名:"
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:layout_weight="4"
+ 			        android:gravity="center"
+ 			        android:layout_gravity="center_vertical"
+
+ 			        />
+ 			       <TextView 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:id="@+id/tv_md_expertname"
+ 			        android:text="张三"
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:layout_weight="1.3"
+ 			        android:gravity="left|center_vertical"
+ 			        android:layout_marginLeft="10dp"
+ 			        android:layout_gravity="center_vertical"
+ 			        />
+ 			    </LinearLayout>
+ 			    <LinearLayout 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:orientation="horizontal"
+ 			        >
+ 			       <TextView 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:text="身份证号:"
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:layout_weight="4"
+ 			        android:gravity="center"
+ 			        android:layout_gravity="center_vertical"
+
+ 			        />
+ 			       <TextView 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:id="@+id/tv_md_hospitalname"
+ 			        android:text="42102319840945"
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:layout_weight="1.3"
+ 			        android:gravity="left|center_vertical"
+ 			        android:layout_marginLeft="10dp"
+ 			        android:layout_gravity="center_vertical"
+ 			        />
+ 			    </LinearLayout>
+ 			    <LinearLayout 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:orientation="horizontal"
+ 			        >
+ 			       <TextView 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:text="面试状态:"
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:layout_weight="4"
+ 			        android:gravity="center"
+ 			        android:layout_gravity="center_vertical"
+ 			        
+ 			        />
+ 			       <TextView 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			         android:id="@+id/tv_md_readingstatus"
+ 			        android:text="未提交"
+ 			        android:layout_weight="1.3"
+ 			        android:gravity="left|center_vertical"
+ 			        android:layout_marginLeft="10dp"
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:textColor="@color/red"
+ 			        android:layout_gravity="center_vertical"
+ 			        />
+ 			    </LinearLayout>
+ 			    <LinearLayout 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:orientation="horizontal"
+ 			        >
+ 			       <TextView 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:text="面试时间:"
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:layout_weight="4"
+ 			        android:gravity="center"
+ 			        android:layout_gravity="center_vertical"
+ 			        
+ 			        />
+ 			       <TextView 
+ 			        android:layout_width="fill_parent"
+ 			        android:layout_height="wrap_content"
+ 			        android:id="@+id/tv_md_createdtime"
+ 			        android:text="2016-06-29 10:25"
+ 			        android:layout_weight="1.3"
+ 			        android:gravity="left|center_vertical"
+ 			        android:layout_marginLeft="10dp"
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:layout_gravity="center_vertical"
+ 			        />
+ 			    </LinearLayout>
+				<RelativeLayout
+					android:layout_width="fill_parent"
+					android:layout_height="40dp"
+					android:background="@color/lightblue"
+					>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_alignParentLeft="true"
+						android:text="分数合计"
+						android:textSize="@dimen/meinfotipsize"
+						android:gravity="left|center_vertical"
+						android:layout_marginLeft="16dp"
+						android:textColor="#ff0000aa"
+						/>
+
+					<FrameLayout
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_alignParentRight="true"
+						>
+						<Button
+							android:id="@+id/btn_add_grade_item"
+							android:layout_width="@dimen/top_pand_btn_width"
+							android:layout_height="match_parent"
+							android:layout_gravity="center_vertical"
+							android:text="添加"
+							android:visibility="gone"
+							android:textSize="@dimen/font"
+							android:layout_margin="3dp"
+							android:textColor="@color/bluebg"
+							android:background="@drawable/preference_single_item"
+							/>
+					</FrameLayout>
+
+				</RelativeLayout>
+
+
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_marginTop="10dp"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					>
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="学生合计总分:"
+						android:textStyle="bold"
+						android:textSize="@dimen/meinfotipsize"
+						android:layout_weight="3.8"
+						android:gravity="center"
+						android:layout_gravity="center_vertical"
+
+						/>
+					<EditText
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/edt_all_grade"
+						android:text=""
+						android:enabled="false"
+						android:layout_weight="1.3"
+						android:gravity="center"
+						android:hint="等待所有老师结束打分"
+						android:textColor="@color/black"
+						android:layout_marginLeft="10dp"
+						android:textSize="@dimen/gradesize"
+						android:layout_gravity="center_vertical"
+						/>
+				</LinearLayout>
+ 			</LinearLayout>
+ 			<RelativeLayout 
+ 			    android:layout_width="fill_parent"
+ 			    android:layout_height="40dp"
+				android:background="@color/lightblue"
+ 			    >
+ 			    <TextView 
+ 			        android:layout_width="wrap_content"
+ 			        android:layout_height="match_parent"
+ 			        android:layout_alignParentLeft="true"
+ 			        android:text="打分栏 (单位：分）"
+ 			        android:textSize="@dimen/meinfotipsize"
+ 			        android:gravity="left|center_vertical"
+ 			        android:layout_marginLeft="16dp"
+ 			        android:textColor="#ff0000aa"
+ 			        />
+ 			    
+
+ 			</RelativeLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="10dp"
+				>
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					>
+					<TextView
+						android:layout_width="fill_parent"
+
+						android:layout_height="wrap_content"
+						android:text="基础知识:"
+						android:textSize="@dimen/meinfotipsize"
+						android:layout_weight="4"
+						android:gravity="center"
+						android:layout_gravity="center_vertical"
+
+						/>
+					<EditText
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/edt_base_grade"
+						android:text="30"
+
+						android:singleLine="true"
+						android:layout_weight="1.3"
+						android:gravity="center"
+						android:textStyle="bold"
+
+						/>
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					>
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="专业技能:"
+						android:textSize="@dimen/meinfotipsize"
+						android:layout_weight="4"
+						android:gravity="center"
+						android:layout_gravity="center_vertical"
+
+						/>
+					<EditText
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/edt_profression_grade"
+						android:text="20"
+						android:singleLine="true"
+
+						android:layout_weight="1.3"
+						android:imeOptions="actionNext"
+						android:gravity="center"
+						android:textStyle="bold"
+
+						/>
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					>
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="其他特长:"
+						android:textSize="@dimen/meinfotipsize"
+						android:layout_weight="4"
+						android:gravity="center"
+						android:layout_gravity="center_vertical"
+
+						/>
+					<EditText
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/edt_otherskill_grade"
+						android:text="20"
+						android:layout_weight="1.3"
+						android:maxLines="1"
+						android:singleLine="true"
+						android:gravity="center"
+						android:textStyle="bold"
+
+						/>
+				</LinearLayout>
+
+				<Button
+					android:id="@+id/btn_submit_grade"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="14dp"
+
+					android:padding="8dp"
+					android:text="提交您的分数"
+					android:textSize="18sp"
+					android:textColor="@color/red"
+					android:gravity="center"
+					android:background="@drawable/preference_single_item"
+
+					/>
+			</LinearLayout>
+
+
+
+
+ 			<LinearLayout 
+ 			    android:layout_width="fill_parent"
+ 			    android:layout_height="wrap_content"
+ 			    android:orientation="vertical"
+ 			    >
+ 			    <edu.swu.pulltorefreshswipemenulistview.library.PullToRefreshSwipeMenuListView
+			        android:id="@+id/list_readpicture"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:cacheColorHint="#00000000"
+			        android:dividerHeight="1dp"
+     				android:divider="#E5E5E5"
+			        android:scrollbars="none"
+				 	android:fadingEdge="none"
+			        android:listSelector="@android:color/transparent"
+			        />
+ 			 
+ 			</LinearLayout>
+ 			
+ 		</LinearLayout>
+ 	</ScrollView>
+	<LinearLayout
+	    android:id="@+id/ly_readpicture_pop"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:background="#00000000"
+	    android:layout_gravity="bottom"
+	    ></LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+
+        android:orientation="vertical" >
+        
+        
+		<ScrollView 
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:scrollbarStyle="outsideOverlay" 
+    		 >
+        	<LinearLayout
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical" >
+            		<RelativeLayout
+            			android:layout_width="fill_parent"
+            			android:layout_height="wrap_content"
+            			android:layout_marginTop="14dp"
+            			android:gravity="center_vertical"
+            			android:clickable="true"
+            			android:id="@+id/personinfo"
+            			android:background="@drawable/preference_first_item" >
+						<ImageView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/iv_myinfo_header"
+							android:scaleType="matrix"
+							android:layout_centerVertical="true"
+							android:layout_alignParentLeft="true"
+							android:clickable="true"
+							android:src="@drawable/myinfo" />
+						<TextView
+        					android:layout_width="wrap_content" 
+        					android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/iv_myinfo_header"
+        					android:padding="8dp" 
+        					android:text="个人信息"
+        					android:textSize="17sp"		
+							android:textColor="#000" />
+            			<ImageView
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					android:layout_centerVertical="true"
+        					android:layout_alignParentRight="true"
+        					android:clickable="true"
+        					android:src="@drawable/mm_submenu" />      					
+      				</RelativeLayout>
+      			
+      				
+      				
+      				
+      				<!--   ********************************************************************   -->
+      				
+      			
+      				
+      				
+      				
+      				
+      				<!--   ***********************************************************************   -->
+      				<RelativeLayout      				    
+            			android:layout_width="fill_parent"
+            			android:layout_height="wrap_content"
+            			android:layout_marginTop="14dp"
+            			android:gravity="center_vertical"
+            			android:clickable="true"
+            			android:id="@+id/generalinfo"
+            			android:background="@drawable/preference_first_item" >
+						<ImageView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/iv_setting_header"
+							android:scaleType="matrix"
+							android:layout_centerVertical="true"
+							android:layout_alignParentLeft="true"
+							android:clickable="true"
+							android:src="@drawable/setting" />
+            			<TextView
+        					android:layout_width="wrap_content" 
+        					android:layout_height="wrap_content"
+        					android:padding="8dp" 
+        					android:text="通用设置"
+        					android:layout_toRightOf="@id/iv_setting_header"
+        					android:textSize="17sp"		
+							android:textColor="#000" /> 
+						<ImageView
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					android:layout_centerVertical="true"
+        					android:layout_alignParentRight="true"
+        					android:src="@drawable/mm_submenu" />      					
+      				</RelativeLayout>
+      				
+      				
+      				<RelativeLayout
+            			android:layout_width="fill_parent"
+            			android:layout_height="wrap_content"
+            			android:layout_marginTop="14dp"
+            			android:gravity="center_vertical"
+            			android:clickable="true"
+            			android:id="@+id/help"
+            			android:background="@drawable/preference_first_item" >
+						<ImageView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/iv_help_header"
+							android:scaleType="matrix"
+							android:layout_centerVertical="true"
+							android:layout_alignParentLeft="true"
+							android:clickable="true"
+							android:src="@drawable/help" />
+            			<TextView
+        					android:layout_width="wrap_content" 
+        					android:layout_height="wrap_content"
+        					android:padding="8dp"
+							android:layout_toRightOf="@id/iv_help_header"
+        					android:text="帮助与反馈"
+        					android:textSize="17sp"		
+							android:textColor="#000" />
+            			<ImageView
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					android:layout_centerVertical="true"
+        					android:layout_alignParentRight="true"
+        					android:src="@drawable/mm_submenu" />      					
+      				</RelativeLayout>
+      				<RelativeLayout
+            			android:layout_width="fill_parent"
+            			android:layout_height="wrap_content"
+            			android:gravity="center_vertical"
+            			android:clickable="true"
+						android:layout_marginTop="14dp"
+            			android:id="@+id/aboutinfo"
+            			android:background="@drawable/preference_last_item" >
+						<ImageView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/iv_about_header"
+							android:scaleType="matrix"
+							android:layout_centerVertical="true"
+							android:layout_alignParentLeft="true"
+							android:clickable="true"
+							android:src="@drawable/about" />
+            			<TextView
+        					android:layout_width="wrap_content" 
+        					android:layout_height="wrap_content"
+        					android:padding="8dp"
+							android:layout_toRightOf="@id/iv_about_header"
+        					android:text="关于打分系统"
+        					android:textSize="17sp"		
+							android:textColor="#000" /> 
+						<ImageView
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					android:layout_centerVertical="true"
+        					android:layout_alignParentRight="true"
+        					android:src="@drawable/mm_submenu" />      					
+      				</RelativeLayout>
+      				
+      				<Button 
+      				    android:id="@+id/btn_exit_application"
+      				    android:layout_width="fill_parent" 
+        				android:layout_height="wrap_content"
+        				android:layout_marginTop="14dp"
+        				
+        				android:padding="8dp" 
+        				android:text="退出登录"
+        				android:textSize="18sp"		
+						android:textColor="@color/red"
+						android:gravity="center"
+						android:background="@drawable/preference_single_item"
+										
+      				    />     	
+        	
+        	</LinearLayout>
+    </ScrollView>
+</LinearLayout>

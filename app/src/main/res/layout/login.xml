@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg_normal" >
+
+    <ImageView 
+        android:id="@+id/myImage"
+        android:layout_width="90dip"
+        android:layout_height="70dip"
+        android:layout_marginTop="65dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/jluzh"/>
+      <TextView 
+          android:id="@+id/tv_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/appliation_fontsize"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/grey"
+        android:layout_below="@id/myImage" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_appname"
+        android:id="@+id/til_user"
+
+        >
+            <com.example.view.utils.ClearEditText
+                android:id="@+id/qqNum"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:layout_marginTop="15dip"
+                android:singleLine="true"
+                android:hint="用户名："
+
+
+                />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout"
+        android:layout_below="@id/til_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <com.example.view.utils.PasswordEditText
+        android:id="@+id/qqPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+
+        android:hint="密码："
+
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:imeOptions="actionDone"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+   
+     <Button 
+         android:id="@+id/qqLoginButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/layout"
+         android:layout_marginTop="20dip"
+         android:layout_marginLeft="30dip"
+         android:layout_marginRight="30dip"
+         android:background="#5587eb"
+         android:textSize="@dimen/appliation_fontsize"
+         android:text="登录"
+         android:textColor="@android:color/white"/>
+
+     <TextView
+         android:id="@+id/fetchPassword"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignTop="@+id/registQQ"
+         android:layout_marginLeft="45dip"
+         android:gravity="bottom"
+         android:text="找回密码"
+         android:textColor="@color/grey"
+         android:textSize="@dimen/appliation_fontsize" />
+     
+     <TextView
+         android:id="@+id/registQQ"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="45dip"
+         android:gravity="bottom"
+         android:textSize="@dimen/appliation_fontsize"
+         android:text="注册账号"
+         android:textColor="@color/bluebg" />
+     
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/qqLoginButton"
+         android:text="|"
+         android:textSize="7pt"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:gravity="bottom"/>
+     
+
+
+</RelativeLayout>

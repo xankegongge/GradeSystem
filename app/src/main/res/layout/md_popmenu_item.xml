@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"  
+android:layout_width="fill_parent"   
+android:layout_height="wrap_content"
+android:background="@color/bluebg"   
+android:id="@+id/popmenu_item_txt" 
+android:textColor="@color/white"
+android:textSize="16sp"
+android:gravity="center"
+android:singleLine="true"
+>  
+</TextView> 

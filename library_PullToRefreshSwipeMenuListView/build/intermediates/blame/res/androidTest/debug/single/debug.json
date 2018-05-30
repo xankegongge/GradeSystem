@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_xlistview_header.xml.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_xlistview_arrow.png.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\xlistview_arrow.png"
+    },
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_grade.png.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\grade.png"
+    },
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_xlistview_footer.xml.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_delete.png.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_delete.png"
+    },
+    {
+        "merged": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_list_app.xml.flat",
+        "source": "D:\\git\\GradeSystem\\library_PullToRefreshSwipeMenuListView\\build\\intermediates\\bundles\\debug\\res\\layout\\item_list_app.xml"
+    }
+]

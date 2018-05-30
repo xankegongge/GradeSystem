@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:id="@+id/fl_popmenu"
+	android:fitsSystemWindows="false"
+   	android:background="#00000000"
+    >
+	<LinearLayout
+		android:id="@+id/pop_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="#312E3F"
+		android:fitsSystemWindows="true"
+		android:gravity="center_horizontal"
+		android:orientation="vertical" >
+
+	
+	<Button
+	    android:id="@+id/btn_pop_selectimg_local"
+	    android:layout_width="fill_parent"
+	    android:layout_height="@dimen/takingphoto_item_height"
+	    android:text="相册"
+	    android:background="@drawable/bg_pop_loadimg_selecter_down"
+
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:textSize="8pt"
+	    android:textColor="@color/bluebg"
+	    />  
+	 <Button
+	    android:id="@+id/btn_pop_selectimg_camera"
+	    android:layout_width="fill_parent"
+	    android:layout_height="@dimen/takingphoto_item_height"
+	    android:text="拍照"
+	    android:background="@drawable/bg_pop_loadimg_selecter_up"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginBottom="0.5dp"
+	    android:textSize="8pt"
+	    android:textColor="@color/bluebg"
+	    />
+		<Button
+			android:id="@+id/btn_pop_selectimg_cancel"
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/takingphoto_item_height"
+			android:text="取消"
+			android:background="@drawable/bg_pop_loadimg_selecter"
+			android:layout_alignParentBottom="true"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:textSize="8pt"
+			android:layout_marginBottom="4dp"
+			android:textColor="@color/red"
+			/>
+</LinearLayout>
+</RelativeLayout>
